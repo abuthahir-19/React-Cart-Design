@@ -4,7 +4,7 @@ import { items } from "../api/CartItemData";
 
 const Cart = () => {
     return (
-        <div className="w-1/2">
+        <div className="w-full">
             {items.map (item => (
                 <CartItem 
                     image={item.image}
