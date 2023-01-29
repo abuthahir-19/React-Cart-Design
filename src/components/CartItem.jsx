@@ -18,7 +18,7 @@ const CartItem = ({ image, head, title, oldPrice, discPrice, SKU, Brand, Deliver
                     </div>
                     <Status content={DeliveryStatus} icon={statusIcon} bgColor={bgColor} textColor={textColor} />
                 </div>
-                <div className="ml-9">
+                <div className="ml-9 flex flex-col justify-between">
                     <Quantity />
                     <div className=" mt-12">
                         <p className="text-slate-400"><strike>{`$${oldPrice}`}</strike></p>

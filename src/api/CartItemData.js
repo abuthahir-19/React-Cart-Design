@@ -3,7 +3,7 @@ import ChaseImg from '../images/chase-bliss.jpg';
 import KompleteImg from '../images/Komplete-Kontrol.png';
 import ValveHead from '../images/guitar.jpg';
 import deliveryIcon from '../images/icons8-in-transit-48.png';
-import discIcon from '../images/icons8-discount-50.png';
+import discIcon from '../images/icons8-ratio-26.png';
 
 const items = [
     {
