@@ -1,10 +1,12 @@
 import './App.css';
 import CartComponent from './components/CartComponent';
+import OrderSummary from './components/OrderSummary';
 
 function App() {
     return (
-        <div className="App w-1/2 mt-11 mx-auto md:w-2/3 sm:w-full">
+        <div className="App w-3/4 m-6 mx-auto flex justify-between">
             <CartComponent />
+            <OrderSummary />
         </div>
     );
 }
