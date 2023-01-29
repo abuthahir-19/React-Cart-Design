@@ -1,6 +1,7 @@
 import React from "react";
 import Status from "./Status";
 import Quantity from "./Quantity";
+import DeleteIcon from '../icons/icon-delete.svg';
 
 const CartItem = ({ image, head, title, oldPrice, discPrice, SKU, Brand, DeliveryStatus, statusIcon, bgColor, textColor }) => {
     return (
@@ -20,9 +21,14 @@ const CartItem = ({ image, head, title, oldPrice, discPrice, SKU, Brand, Deliver
                 </div>
                 <div className="ml-9 flex flex-col justify-between">
                     <Quantity />
-                    <div className=" mt-12">
-                        <p className="text-slate-400"><strike>{`$${oldPrice}`}</strike></p>
-                        <h3 className="font-bold text-slate-700">{`$${discPrice}`}</h3>
+                    <div className=" mt-12 flex justify-between items-center">
+                        <div>
+                            <p className="text-slate-400"><strike>{`$${oldPrice}`}</strike></p>
+                            <h3 className="font-bold text-slate-700">{`$${discPrice}`}</h3>
+                        </div>
+                        <div className="cursor-pointer">
+                            <img src={DeleteIcon} alt="DeleteIcon" />
+                        </div>
                     </div>
                 </div>
             </div>
