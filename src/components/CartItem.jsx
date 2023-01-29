@@ -14,7 +14,7 @@ const CartItem = ({ image, head, title, oldPrice, discPrice, SKU, Brand, Deliver
                     <h2 className="text-lg font-bold mb-3 text-slate-700">{title}</h2>
                     <div className="mb-4 flex md:flex-wrap">
                         <span className="font-normal text-slate-400">SKU: <span className="font-bold text-slate-700">{SKU}</span> </span>
-                        <span className="font-normal text-slate-400 ml-3">Brand: <span className="font-semibold text-slate-700 overflow-ellipsis">{Brand}</span></span>
+                        <span className="font-normal text-slate-400 ml-3 w-1/2 whitespace-nowrap overflow-hidden text-ellipsis">Brand: <span className="font-semibold text-slate-700 overflow-ellipsis">{Brand}</span></span>
                     </div>
                     <Status content={DeliveryStatus} icon={statusIcon} bgColor={bgColor} textColor={textColor} />
                 </div>
