@@ -7,6 +7,7 @@ import discIcon from '../images/icons8-ratio-26.png';
 
 const items = [
     {
+        id: '0',
         image: MoogImg,
         heading : 'Synthesiser Modules'.toUpperCase(),
         title : 'MOOG Minitaur',
@@ -20,6 +21,7 @@ const items = [
         textColor : 'text-green-600'
     },
     {
+        id : '1',
         image: ChaseImg,
         heading : 'Guitar Effects'.toUpperCase(),
         title : 'Chase Bliss Audio CXM 1978',
@@ -33,6 +35,7 @@ const items = [
         textColor : 'text-green-600'
     },
     {
+        id : '2',
         image : KompleteImg,
         heading : 'Guitar Effects'.toUpperCase(),
         title : 'Native Instruments Komplete Kontrol S88 MK2',
@@ -46,6 +49,7 @@ const items = [
         textColor : 'text-indigo-600'
     },
     {
+        id : '3',
         image : ValveHead,
         heading : 'Guitar Heads'.toUpperCase(),
         title : 'Orange Dual Terror Guitar Valve Head',
