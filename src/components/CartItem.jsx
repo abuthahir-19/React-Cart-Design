@@ -6,7 +6,7 @@ const CartItem = ({ image, head, title, oldPrice, discPrice, SKU, Brand, Deliver
     return (
         <div className="p-3 mb-4">
             <div className="flex justify-around">
-                <div className="w-28 h-28 mr-2">
+                <div className="w-24 h-24 h mr-2">
                     <img src={image} alt="CartItemImage" />
                 </div>
                 <div className="w-2/3 ml-4">
