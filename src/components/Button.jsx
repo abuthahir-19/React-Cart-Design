@@ -10,7 +10,7 @@ const Button = ({ content, iconImg, bgColor, textColor, border }) => {
 const ButtonWithIcon = ({ content, icon }) => {
     return (
         <div className="inline-block mt-4">
-            <div className="flex ">
+            <div className="flex cursor-pointer bg-none outline-none border-none">
                 <img className="w-6 h-6" src={icon} alt="PlusIcon" />
                 <button className="font-medium text-blue-600 ml-2">{ content }</button>
             </div>
