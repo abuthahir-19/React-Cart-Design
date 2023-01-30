@@ -1,7 +1,7 @@
-import MoogImg from '../images/moog-minitaur.jpg';
-import ChaseImg from '../images/chase-bliss.jpg';
+import MoogImg from '../images/moog-minitaur.png';
+import ChaseImg from '../images/chase-bliss.png';
 import KompleteImg from '../images/Komplete-Kontrol.png';
-import ValveHead from '../images/guitar.jpg';
+import ValveHead from '../images/guitar.png';
 import deliveryIcon from '../images/icons8-in-transit-48.png';
 import discIcon from '../images/icons8-ratio-26.png';
 
