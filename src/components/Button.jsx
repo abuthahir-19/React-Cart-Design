@@ -21,7 +21,7 @@ const ButtonWithIcon = ({ content, icon }) => {
 const ButtonWithContent = ({ content, bgColor, textColor, border }) => {
     return (
         <div className="cursor-pointer">
-            <button className={`px-11 py-2 ${bgColor} ${textColor} ${border} rounded-lg font-medium`}>{ content }</button>
+            <button className={`px-9 py-2 ${bgColor} ${textColor} ${border} rounded-lg font-medium`}>{ content }</button>
         </div>
     )
 }

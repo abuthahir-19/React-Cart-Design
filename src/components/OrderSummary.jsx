@@ -7,7 +7,7 @@ import PlusIcon from '../icons/plus-icon.svg';
 
 const OrderSummary = () => {
     return (
-        <div className="p-8 ml-3 rounded-lg shadow-xl shadow-gray-400 w-1/3">
+        <div className="p-8 ml-3 rounded-lg shadow-[1px_1px_10px_#888888] w-1/3">
             <div className="">
                 <h1 className="font-semibold text-xl text-slate-700">Order Summary</h1>
             </div>
