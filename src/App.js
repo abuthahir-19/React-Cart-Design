@@ -8,7 +8,6 @@ function App() {
     const [itemsSet, SetItemsSet] = useState (items);
 
     const onDelete = (id) => {
-        console.log (`Clicked delete button on the item id ${id}`);
         SetItemsSet (items => items.filter (item => parseInt (item.id) !== parseInt (id)))
     };
 
