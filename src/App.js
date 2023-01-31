@@ -12,9 +12,9 @@ function App() {
     };
 
     return (
-        <div className="App w-3/4 m-6 mx-auto flex justify-between">
+        <div className="App w-full flex justify-center">
             <CartComponent items={itemsSet} onDelete={onDelete} />
-            <OrderSummary />
+            {/* <OrderSummary /> */}
         </div>
     );
 }
