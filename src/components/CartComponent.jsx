@@ -1,7 +1,7 @@
 import React from "react";
 import Cart from "./Cart";
 
-const CartComponent = () => {
+const CartComponent = ({ items, onDelete }) => {
     const link = "#"
     return (
         <div className="rounded-lg shadow-[1px_1px_10px_#888888] w-[70%]">
@@ -11,9 +11,18 @@ const CartComponent = () => {
                     <a href={link} className="text-blue-500 font-semibold">View all</a>
                 </div>
             </div>
-            <Cart />
+            {items.length ? <Cart items={items} onDelete={onDelete} /> :
+            <EmptyCart />}
         </div>
     );
+}
+
+const EmptyCart = () => {
+    return (
+        <div className="flex justify-center items-center w-full h-full">
+            <p className="text-xl font-medium text-slate-700">Your cart is empty</p>
+        </div>
+    )
 }
 
 export default CartComponent;

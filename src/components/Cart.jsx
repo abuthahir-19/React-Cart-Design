@@ -1,12 +1,12 @@
 import React from "react";
 import CartItem from "./CartItem";
-import { items } from "../api/CartItemData";
 
-const Cart = () => {
+const Cart = ({ items, onDelete }) => {
     return (
         <div className="w-full">
             {items.map (item => (
                 <CartItem 
+                    id={item.id}
                     image={item.image}
                     head={item.heading} 
                     title={item.title} 
@@ -18,6 +18,7 @@ const Cart = () => {
                     statusIcon={item.statusIcon}
                     bgColor={item.bgColor}
                     textColor={item.textColor}
+                    onDelete={onDelete}
                 />
             ))}
         </div>

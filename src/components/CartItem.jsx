@@ -3,7 +3,7 @@ import Status from "./Status";
 import Quantity from "./Quantity";
 import DeleteIcon from '../icons/icon-delete.svg';
 
-const CartItem = ({ image, head, title, oldPrice, discPrice, SKU, Brand, DeliveryStatus, statusIcon, bgColor, textColor }) => {
+const CartItem = ({ id, image, head, title, oldPrice, discPrice, SKU, Brand, DeliveryStatus, statusIcon, bgColor, textColor, onDelete }) => {
     return (
         <div className="p-3 mb-4">
             <div className="flex justify-around">
@@ -26,7 +26,7 @@ const CartItem = ({ image, head, title, oldPrice, discPrice, SKU, Brand, Deliver
                             <p className="text-slate-400"><strike>{`$${oldPrice}`}</strike></p>
                             <h3 className="font-bold text-slate-700">{`$${discPrice}`}</h3>
                         </div>
-                        <div className="cursor-pointer">
+                        <div className="cursor-pointer" onClick={() => onDelete(id)}>
                             <img src={DeleteIcon} alt="DeleteIcon" />
                         </div>
                     </div>
