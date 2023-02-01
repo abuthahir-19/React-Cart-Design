@@ -6,5 +6,5 @@ This project design is taken from dribbble and created for just improving the fr
 To access the project click on the below link
 [React Cart Design](https://cart-design.web.app/)
 
-# Project Design Template (Inferred from dribbble)
-![Cart_Design]('./design/cart-design.jpg')
+# Project Design Template 
+![Design preview for the Bookmark landing page coding challenge](./design/cart-design.jpg)
