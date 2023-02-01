@@ -7,4 +7,4 @@ To access the project click on the below link
 [React Cart Design](https://cart-design.web.app/)
 
 # Project Design Template (Inferred from dribbble)
-![Cart Design]('src/design/cart-design.jpg')
+![Cart_Design]('./design/cart-design.jpg')
