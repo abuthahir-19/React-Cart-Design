@@ -1,5 +1,5 @@
 # Project Design Template (Inferred from dribbble)
-![Design preview for the Bookmark landing page coding challenge](./design/cart-design.jpg)
+![Design preview for cart items design](./design/cart-design.jpg)
 
 # Ecommerce Cart Component design using React and tailwind CSS
 
