@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import './App.css';
 import CartComponent from './components/CartComponent';
-import OrderSummary from './components/OrderSummary';
+// import OrderSummary from './components/OrderSummary';
 import { items } from './api/CartItemData';
 
 function App() {
