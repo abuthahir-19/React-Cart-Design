@@ -11,8 +11,10 @@ const CartComponent = ({ items, onDelete }) => {
                     <a href={link} className="text-blue-500 font-semibold">View all</a>
                 </div>
             </div>
-            {items.length ? <Cart items={items} onDelete={onDelete} /> :
-            <EmptyCart />}
+            <div className=" min-h-[350px] flex justify-center items-center">
+                {items.length ? <Cart items={items} onDelete={onDelete} /> :
+                <EmptyCart />}
+            </div>
         </div>
     );
 }
