@@ -5,9 +5,3 @@ This project design is taken from dribbble and created for just improving the fr
 # Start Accessing the Application
 To access the project click on the below link
 [React Cart Design](https://cart-design.web.app/)
-
-<img 
-    scr="./src/design/cart-design.jpg"
-    alt="Cart_Design_template"
-    title="Cart Design Template"
-/>
