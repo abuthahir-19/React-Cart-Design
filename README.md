@@ -7,7 +7,7 @@ To access the project click on the below link
 [React Cart Design](https://cart-design.web.app/)
 
 <img 
-    scr="./design/cart-design.jpg"
+    scr="./src/design/cart-design.jpg"
     alt="Cart_Design_template"
     title="Cart Design Template"
 />
